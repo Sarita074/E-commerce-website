@@ -11,8 +11,8 @@ const CartPage = () => {
 	const { cart } = useCartStore();
 
 	return (
-		<div className='py-8 md:py-16'>
-			<div className='mx-auto w-screen-xl px-4 2xl:px-0'>
+		<div>
+			<div className='relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16'>
 				<div className='mt-6 sm:mt-8 md:gap-6 lg:flex lg:items-start xl:gap-8'>
 					<motion.div
 						className='mx-auto w-full flex-none lg:max-w-2xl xl:max-w-4xl'
